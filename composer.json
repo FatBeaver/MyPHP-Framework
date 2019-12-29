@@ -1,0 +1,10 @@
+{
+    "name": "myframe/myframe",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "myframe\\": "vendor/myframe"
+        }
+    }
+}
