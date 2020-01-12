@@ -20,7 +20,7 @@ class App
      * 
      * Файл конфигурации фреймворка;
      */
-    private $config;
+    public static $config;
 
     /**
      * @property array
@@ -37,15 +37,21 @@ class App
      */
     public function __construct(array $config)
     {   
-        $this->config = $config;
+        self::$config = $config;
     }
 
     /**
      * @return void
+     * 
+     * Метод запускающий "Движок" фрэймворка:
+     * 
+     * Создает экземпляр класса Register и загружает его в свойство $this->components;
+     * Создает экземпляр класса ErrorHandler;
+     * Создает экземпляр класса Router и запускает его метод dispatch();
      */
     public function run() : void
     {
-        self::$components = Register::instance($this->config['components']);
-        (new Router($this->config['routes']))->dispatch();
+        self::$components = Register::instance(self::$config['components']);
+        (new Router(self::$config['routes']))->dispatch();
     }
 }

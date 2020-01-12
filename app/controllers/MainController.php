@@ -2,11 +2,19 @@
 
 namespace app\controllers;
 
-class MainController
-{
+use myframe\core\base\Controller;
+use app\models\Main; 
+
+class MainController extends Controller
+{   
     public function actionIndex()
-    {
-        echo __METHOD__;
+    {   
+        
+        $model = new Main();
+        $model->save();
+        
+        $this->render('index', [
+        ]);
     }
     public function actionPosts()
     {
