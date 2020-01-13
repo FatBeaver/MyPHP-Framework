@@ -1,0 +1,340 @@
+[13-01-2020 17:45:33];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:46:30];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:46:31];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:46:31];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:49:01];
+        Текст ошибки: asdas;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:49:18];
+        Текст ошибки: Undefined variable: sda;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:49:47];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:50:27];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:50:45];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:50:46];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:50:46];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:50:47];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:50:47];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:51:11];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:51:13];
+        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:51:51];
+        Текст ошибки: Uncaught Exception: asdas in /var/www/myframe.com/app/controllers/MainController.php:16
+Stack trace:
+#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
+#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
+#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
+#3 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:52:21];
+        Текст ошибки: asdas;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 17:53:06];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:54:03];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:54:04];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:54:04];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:54:24];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:54:25];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:54:25];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:55:02];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:55:02];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:55:03];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:55:03];
+        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
+Stack trace:
+#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
+#1 {main}
+  thrown;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[13-01-2020 17:55:23];
+        Текст ошибки: Call to undefined function app\controllers\test();
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[13-01-2020 18:02:14];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 131;
+        //============================================//
+
+[13-01-2020 18:02:20];
+        Текст ошибки: Kласс app\controllers\DasdController не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 128;
+        //============================================//
+
+[13-01-2020 18:02:41];
+        Текст ошибки: Kласс app\controllers\DasdController не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 128;
+        //============================================//
+
+[13-01-2020 18:02:47];
+        Текст ошибки: Метод actionAsdsa не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 125;
+        //============================================//
+
+[13-01-2020 18:03:16];
+        Текст ошибки: Метод actionAsdsa не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 125;
+        //============================================//
+
+[13-01-2020 18:03:33];
+        Текст ошибки: Метод actionAsdsa не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 125;
+        //============================================//
+
+[13-01-2020 18:03:44];
+        Текст ошибки: Метод actionAsdsa не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 125;
+        //============================================//
+
+[13-01-2020 18:03:49];
+        Текст ошибки: Метод actionAsdsa не найден;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 125;
+        //============================================//
+

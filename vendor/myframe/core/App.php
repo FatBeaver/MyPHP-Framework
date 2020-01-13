@@ -4,6 +4,7 @@ namespace myframe\core;
 
 use myframe\core\Register;
 use myframe\core\Router;
+use myframe\core\base\ErrorHandler;
 
 /**
  * Основной класс фреймворка, экземпляр которого создается во
@@ -50,8 +51,11 @@ class App
      * Создает экземпляр класса Router и запускает его метод dispatch();
      */
     public function run() : void
-    {
+    {   
+        new ErrorHandler();
+
         self::$components = Register::instance(self::$config['components']);
+        
         (new Router(self::$config['routes']))->dispatch();
     }
 }

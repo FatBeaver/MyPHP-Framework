@@ -2,6 +2,8 @@
 
 namespace myframe\core;
 
+use Exception;
+
 class Router 
 {   
     /**
@@ -120,13 +122,13 @@ class Router
                 if (method_exists($controllerClass, $controllerAction)) {
                     $controllerObject->$controllerAction();
                 } else {
-                    echo "Метод {$controllerAction} не найден";
+                    throw new Exception("Метод {$controllerAction} не найден", 404);
                 }
             } else {
-                echo "Kласс {$controllerClass} не найден";
+                throw new Exception("Kласс {$controllerClass} не найден", 404);
             }
         } else {
-            echo 'Страница не найдена';
+            throw new Exception("Страница не найдена", 404);
         }
     }
 }
