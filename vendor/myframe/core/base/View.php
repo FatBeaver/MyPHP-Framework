@@ -2,6 +2,8 @@
 
 namespace myframe\core\base;
 
+use Exception;
+
 class View 
 {   
     /**
@@ -35,18 +37,31 @@ class View
     private $layout;
 
     /**
+     * Префикс роута.
+     * 
+     * Необходим для разделения роутов на пользовательские
+     * и административные.
+     */
+    private $prefix;
+
+    /**
      * Конструкотр класса.
      * 
      * Загружает данные полученные от базового контроллера в
      * соотвествующие свойства текущего класса.
      */
     public function __construct(string $view, array $data = null, 
-        string $controllerName, $layout)
+        string $controllerName, string $prefix, $layout)
     {
         $this->data = $data;
         $this->controllerName = $controllerName;
         $this->view = $view;
         $this->layout = $layout;
+        if ($prefix) {
+            $this->prefix = str_replace('\\', '/', $prefix);  
+        } else {
+            $this->prefix = $prefix;
+        }
     }
 
     /**
@@ -73,7 +88,6 @@ class View
         if (is_array($this->data)) {
             extract($this->data);
         }
-
         $pathToView = APP . "/views/{$this->controllerName}/{$this->view}.php";
         require_once $pathToView;
     }
@@ -89,20 +103,20 @@ class View
         }
 
         $pathToLayout = APP . "/views/layouts/{$this->layout}.php";
-        $pathToView = APP . "/views/{$this->controllerName}/{$this->view}.php";
+        $pathToView = APP . "/views/{$this->prefix}{$this->controllerName}/{$this->view}.php";
 
         if (file_exists($pathToView)) {
             ob_start();
             require_once $pathToView; 
         } else {
-            echo 'Вид не найден';
+            throw new Exception("Файл вида {$pathToView} не найден", 404);
         }
 
         if (file_exists($pathToLayout)) {
             $content = ob_get_clean();
             require_once $pathToLayout;
         } else {
-            echo 'Шаблон не найден';
+            throw new Exception("Шаблон {$pathToLayout} не найден", 404);
         }
     }
     

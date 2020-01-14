@@ -53,10 +53,18 @@ class Router
                     if (is_string($key)) {
                         $route[$key] = $value;
                     }
-                    if (!isset($route['action'])) {
-                        $route['action'] = 'index';
-                    }
                 }
+
+                if (!isset($route['action'])) {
+                    $route['action'] = 'index';
+                }
+
+                if (!isset($route['prefix'])) {
+                    $route['prefix'] = '';
+                } else {
+                    $route['prefix'] .= '\\';
+                }
+
                 $this->route = $route;
                 return true;
             }
@@ -113,8 +121,9 @@ class Router
 
         if ($this->searchMatchRoute($this->queryString)) {
 
-            $controllerClass = 'app\\controllers\\' . $this->upperCase($this->route['controller']) 
-            . 'Controller';
+            $controllerClass = 'app\\controllers\\' . $this->route['prefix'] 
+            . $this->upperCase($this->route['controller']) . 'Controller';
+            
             $controllerAction = 'action' . $this->upperCase($this->route['action']);
 
             if (class_exists($controllerClass)) {

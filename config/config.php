@@ -12,6 +12,11 @@ $config = [
     'routes' => [
         // =============== USER_ROUTE ========================
         '^foo/?(?P<action>[a-z-]+)?$' => ['controller' => 'main', 'action' => 'index'],
+
+        // =============== ADMIN_ROUTE =======================
+        '^admin-panel$' => ['controller' => 'user', 'action' => 'index', 'prefix' => 'admin'],
+        '^admin-panel/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$' => ['prefix' => 'admin'],
+
         // =============== DEFAULT_ROUTE =====================
         '^$' => ['controller' => 'main', 'action' => 'index'],
         '^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$' => [],

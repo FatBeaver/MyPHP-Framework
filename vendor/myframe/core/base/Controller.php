@@ -40,7 +40,9 @@ class Controller
      */
     protected function render(string $view, array $data = null) : void
     {   
-        $viewObject = new View($view, $data, $this->route['controller'], $this->layout);
+        $viewObject = new View($view, $data, $this->route['controller'], 
+            $this->route['prefix'], $this->layout);
+            
         $viewObject->renderView();
     }
 }
