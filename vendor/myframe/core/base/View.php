@@ -81,7 +81,7 @@ class View
 
     /**
      * Метод вызываемый если свойство $layout 
-     * установленно как  false.
+     * установленно как false.
      */
     private function getContent()
     {   

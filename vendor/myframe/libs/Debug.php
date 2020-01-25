@@ -1,6 +1,6 @@
 <?php
 
-namespace myframe\core\libs;
+namespace myframe\libs;
 
 class Debug
 {

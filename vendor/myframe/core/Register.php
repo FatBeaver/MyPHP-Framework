@@ -6,13 +6,13 @@ class Register
 {
     private static $instance;
 
-    public static $container = [];
+    public $container = [];
 
     public function __construct($components)
     {
         foreach ($components as $name => $component)
         {
-            self::$container[$name] = $component;
+            $this->container[$name] = $component;
         }
     }
 
@@ -26,15 +26,19 @@ class Register
 
     public function __get($name)
     {
-        if (is_object(self::$container[$name])) {
-            return self::$container[$name];
+        $component = new $this->container[$name];
+
+        if (is_object($component)) {
+            return $component;
+        } else {
+            throw new \Exception("Компонент {$component} не является объектом.", 500);
         }
     }
 
     public function __set($name, $object)
     {
-        if (!isset(self::$container[$name])) {
-            self::$container[$name] = new $object;
+        if (!isset($this->container[$name])) {
+            $this->container[$name] = new $object;
         }
     }
 }

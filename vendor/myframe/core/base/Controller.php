@@ -33,6 +33,22 @@ class Controller
     }
 
     /**
+     * Перенаправляет пользователя на указанный $url.
+     *
+     * @param bool|string $url
+     */
+    protected function redirect($url = false): void
+    {
+        if ($url) {
+            $redirect = $url;
+        } else {
+            $redirect = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : "/" ;
+        }
+        header("Location: $redirect");
+        exit();
+    }
+
+    /**
      * @return void
      * 
      * Метод вызываемый из дочерних контроллеров.

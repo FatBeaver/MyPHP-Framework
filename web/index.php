@@ -14,6 +14,7 @@
  * 9) DEBUG -- Режим показа ошибок;
  */
 
+
 define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__) . '/app');
 define('CORE', dirname(__DIR__) . '/vendor/myframe/core');
@@ -28,4 +29,4 @@ require_once ROOT . '/vendor/autoload.php';
 
 $config = require_once CONFIG . '/config.php';
 
-(new \myframe\core\App($config))->run();
+(new \myframe\core\App($config))->run(); 

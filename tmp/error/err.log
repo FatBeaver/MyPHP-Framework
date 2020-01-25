@@ -1,604 +1,2029 @@
-[13-01-2020 17:45:33];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:46:30];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:46:31];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:46:31];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:49:01];
-        Текст ошибки: asdas;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:49:18];
-        Текст ошибки: Undefined variable: sda;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:49:47];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:50:27];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:50:45];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:50:46];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:50:46];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:50:47];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:50:47];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:51:11];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:51:13];
-        Текст ошибки: Uncaught Error: Call to undefined function app\controllers\test() in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:51:51];
-        Текст ошибки: Uncaught Exception: asdas in /var/www/myframe.com/app/controllers/MainController.php:16
-Stack trace:
-#0 /var/www/myframe.com/vendor/myframe/core/Router.php(121): app\controllers\MainController->actionIndex()
-#1 /var/www/myframe.com/vendor/myframe/core/App.php(59): myframe\core\Router->dispatch()
-#2 /var/www/myframe.com/web/index.php(31): myframe\core\App->run()
-#3 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:52:21];
-        Текст ошибки: asdas;
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 17:53:06];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:54:03];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:54:04];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:54:04];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:54:24];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:54:25];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:54:25];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:55:02];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:55:02];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:55:03];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:55:03];
-        Текст ошибки: Uncaught TypeError: Argument 1 passed to myframe\core\base\ErrorHandler::exceptionHandler() must be an instance of Exception, instance of Error given in /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php:29
-Stack trace:
-#0 [internal function]: myframe\core\base\ErrorHandler->exceptionHandler(Object(Error))
-#1 {main}
-  thrown;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/ErrorHandler.php;
-        Строка ошибки: 29;
-        //============================================//
-
-[13-01-2020 17:55:23];
-        Текст ошибки: Call to undefined function app\controllers\test();
-Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
-        Строка ошибки: 16;
-        //============================================//
-
-[13-01-2020 18:02:14];
+[16-01-2020 15:26:38];
         Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 131;
+        Строка ошибки: 140;
         //============================================//
 
-[13-01-2020 18:02:20];
-        Текст ошибки: Kласс app\controllers\DasdController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 128;
-        //============================================//
-
-[13-01-2020 18:02:41];
-        Текст ошибки: Kласс app\controllers\DasdController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 128;
-        //============================================//
-
-[13-01-2020 18:02:47];
-        Текст ошибки: Метод actionAsdsa не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 125;
-        //============================================//
-
-[13-01-2020 18:03:16];
-        Текст ошибки: Метод actionAsdsa не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 125;
-        //============================================//
-
-[13-01-2020 18:03:33];
-        Текст ошибки: Метод actionAsdsa не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 125;
-        //============================================//
-
-[13-01-2020 18:03:44];
-        Текст ошибки: Метод actionAsdsa не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 125;
-        //============================================//
-
-[13-01-2020 18:03:49];
-        Текст ошибки: Метод actionAsdsa не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 125;
-        //============================================//
-
-[14-01-2020 17:38:47];
-        Текст ошибки: Страница не найдена;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 133;
-        //============================================//
-
-[14-01-2020 17:40:44];
-        Текст ошибки: Kласс app\controllers\TestController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:42:10];
-        Текст ошибки: Kласс app\controllers\SersController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:42:46];
-        Текст ошибки: Kласс app\controllers\SersController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:42:53];
-        Текст ошибки: Kласс app\controllers\SersController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:42:54];
-        Текст ошибки: Kласс app\controllers\SersController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:43:02];
-        Текст ошибки: Kласс app\controllers\SersController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:44:20];
-        Текст ошибки: Страница не найдена;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 133;
-        //============================================//
-
-[14-01-2020 17:44:25];
-        Текст ошибки: Kласс app\controllers\SersController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:53:12];
-        Текст ошибки: Kласс app\controllers\DsadController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 130;
-        //============================================//
-
-[14-01-2020 17:57:48];
-        Текст ошибки: Kласс app\controllers\DsadController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 136;
-        //============================================//
-
-[14-01-2020 20:33:11];
-        Текст ошибки: Kласс app\controllers\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 136;
-        //============================================//
-
-[14-01-2020 20:34:14];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:07:34];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:10:46];
-        Текст ошибки: Kласс app\controllers\admin-panel\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:11:11];
-        Текст ошибки: Kласс app\controllers\admin-panel\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:11:12];
-        Текст ошибки: Kласс app\controllers\admin-panel\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:11:12];
-        Текст ошибки: Kласс app\controllers\admin-panel\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:12:47];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 100;
-        //============================================//
-
-[14-01-2020 21:14:10];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 100;
-        //============================================//
-
-[14-01-2020 21:17:24];
-        Текст ошибки: Kласс app\controllers\adminpanel\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:17:27];
-        Текст ошибки: Kласс app\controllers\adminpanel\UserController не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
-        //============================================//
-
-[14-01-2020 21:18:38];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 100;
-        //============================================//
-
-[14-01-2020 21:19:03];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 100;
-        //============================================//
-
-[14-01-2020 21:27:12];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 109;
-        //============================================//
-
-[14-01-2020 21:28:49];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:28:49];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:28:50];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:28:50];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:30:29];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:30:29];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:30:30];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:31:12];
-        Текст ошибки: Файл вида /var/www/myframe.com/app/views/adminpanel\user/index.php не найден;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/View.php;
-        Строка ошибки: 114;
-        //============================================//
-
-[14-01-2020 21:40:09];
+[16-01-2020 15:29:10];
         Текст ошибки: Kласс app\controllers\AdminController не найден;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
         Строка ошибки: 137;
         //============================================//
 
-[14-01-2020 21:43:14];
-        Текст ошибки: Kласс app\controllers\AsdController не найден;
+[16-01-2020 15:29:28];
+        Текст ошибки: Kласс app\controllers\AdminController не найден;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
         Строка ошибки: 137;
         //============================================//
 
-[14-01-2020 21:43:38];
-        Текст ошибки: Kласс app\controllers\adminpanel\AsdController не найден;
+[16-01-2020 15:29:30];
+        Текст ошибки: Kласс app\controllers\AdminController не найден;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
         Строка ошибки: 137;
         //============================================//
 
-[14-01-2020 21:51:46];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:29:48];
+        Текст ошибки: Kласс app\controllers\PageController не найден;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
         Строка ошибки: 137;
         //============================================//
 
-[14-01-2020 21:52:07];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:38:43];
+        Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
+        Строка ошибки: 140;
         //============================================//
 
-[14-01-2020 21:52:08];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:38:44];
+        Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
+        Строка ошибки: 140;
         //============================================//
 
-[14-01-2020 21:52:08];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:38:44];
+        Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
+        Строка ошибки: 140;
         //============================================//
 
-[14-01-2020 21:52:09];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:38:58];
+        Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
+        Строка ошибки: 140;
         //============================================//
 
-[14-01-2020 21:52:12];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:40:23];
+        Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
+        Строка ошибки: 140;
         //============================================//
 
-[14-01-2020 21:52:12];
-        Текст ошибки: Kласс app\controllers\admin\UserController не найден;
+[16-01-2020 15:43:16];
+        Текст ошибки: Страница не найдена;
 Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
-        Строка ошибки: 137;
+        Строка ошибки: 140;
         //============================================//
 
-[14-01-2020 21:58:03];
-        Текст ошибки: Undefined index: controller;
-Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Controller.php;
-        Строка ошибки: 43;
+[16-01-2020 15:43:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:43:19];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:43:19];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:43:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:43:55];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:44:53];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:45:28];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:45:33];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 15:45:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 19:06:37];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 19:06:37];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 21:08:53];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 21:08:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 21:25:41];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 22:08:18];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[16-01-2020 22:08:19];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[17-01-2020 23:27:01];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[17-01-2020 23:27:01];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[19-01-2020 01:32:43];
+        Текст ошибки: Could not connect to database (epframe).;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 440;
+        //============================================//
+
+[19-01-2020 01:32:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[19-01-2020 01:34:08];
+        Текст ошибки: Could not connect to database (epframe).;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 440;
+        //============================================//
+
+[19-01-2020 01:37:57];
+        Текст ошибки: Could not connect to database (epframe).;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 440;
+        //============================================//
+
+[19-01-2020 01:42:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[19-01-2020 01:45:53];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[19-01-2020 01:46:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:36:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:36:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:36:46];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:36:54];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:38:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:38:53];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:42:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:42:29];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:42:31];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:42:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:42:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:50:10];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:50:37];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:50:37];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:50:38];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:52:16];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:55:41];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:56:28];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:56:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:56:53];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:57:02];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:57:07];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:57:09];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:57:11];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:57:31];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:15];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:16];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:21];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:24];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:24];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:25];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:31];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 22:58:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:00:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:00:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:00:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:00:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:00:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:03:45];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:03:55];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:03:55];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:20:24];
+        Текст ошибки: Cannot make static method RedBeanPHP\Facade::load() non static in class myframe\core\base\Model;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 16;
+        //============================================//
+
+[24-01-2020 23:21:20];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:21:20];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:21:25];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:24:39];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:27:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:28:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:28:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:29:05];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:29:08];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:29:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:29:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:31:15];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:31:55];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:48:01];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:48:06];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:48:14];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:48:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:49:38];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:55:39];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[24-01-2020 23:56:00];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:25:23];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:25:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:25:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:25:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:25:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:26:00];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:41:16];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 17;
+        //============================================//
+
+[25-01-2020 00:41:43];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 17;
+        //============================================//
+
+[25-01-2020 00:42:08];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 17;
+        //============================================//
+
+[25-01-2020 00:43:11];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 18;
+        //============================================//
+
+[25-01-2020 00:43:49];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:44:08];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:44:15];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:44:21];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:44:30];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:44:35];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:44:36];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:44:39];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:45:13];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:45:18];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:45:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:45:35];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:45:52];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:45:58];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:47:25];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:52:17];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:52:32];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:53:35];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:55:01];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:55:01];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:55:06];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:55:11];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 00:55:42];
+        Текст ошибки: syntax error, unexpected '/';
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 18;
+        //============================================//
+
+[25-01-2020 00:55:52];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:56:08];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:56:37];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 00:57:48];
+        Текст ошибки: Undefined offset: 0;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 306;
+        //============================================//
+
+[25-01-2020 01:25:29];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:25:35];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:26:15];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:26:20];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:29:02];
+        Текст ошибки: Class 'app\controllers\App' not found;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[25-01-2020 01:29:23];
+        Текст ошибки: Object of class app\controllers\UserController could not be converted to string;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 31;
+        //============================================//
+
+[25-01-2020 01:29:44];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:32:17];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:32:18];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:32:18];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:32:19];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:35:40];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:35:41];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:35:42];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:35:42];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:36:22];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:36:50];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:36:51];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:37:39];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:37:39];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:37:39];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:37:39];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:40:08];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:40:16];
+        Текст ошибки: Object of class myframe\core\components\Cache could not be converted to string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:40:35];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:40:36];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:40:47];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:40:47];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:40:51];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:41:34];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:41:46];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:42:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:42:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:42:51];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:43:06];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:43:06];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:43:11];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:43:43];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:45:27];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:45:28];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:45:28];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:45:28];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:46:36];
+        Текст ошибки: Trying to get property 'hello' of non-object;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:47:15];
+        Текст ошибки: Call to undefined method myframe\core\Register::cache();
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:47:16];
+        Текст ошибки: Call to undefined method myframe\core\Register::cache();
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:48:09];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:48:10];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:48:11];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:48:11];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:34];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:35];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:35];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:35];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:47];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:47];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:47];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:48];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:49:48];
+        Текст ошибки: Call to a member function hello() on null;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 30;
+        //============================================//
+
+[25-01-2020 01:50:18];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:50:18];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:52:03];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:52:03];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:52:04];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:52:04];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:52:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 01:57:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:27:41];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:27:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:27:45];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:27:55];
+        Текст ошибки: Call to undefined method app\models\User::save();
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 25;
+        //============================================//
+
+[25-01-2020 13:29:57];
+        Текст ошибки: Undefined variable: tbl;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 92;
+        //============================================//
+
+[25-01-2020 13:30:16];
+        Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pass' in 'field list';
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[25-01-2020 13:31:21];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:31:36];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:31:48];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:31:57];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:33:14];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:33:15];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:33:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:33:20];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:33:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:33:47];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:34:53];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 13:34:57];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:21:41];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:21:41];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:21:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:21:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:42:11];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:50:55];
+        Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[25-01-2020 14:52:18];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:52:27];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:52:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:52:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 14:55:54];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 18:45:14];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 18:45:15];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:15:51];
+        Текст ошибки: Could not check compatibility between app\models\User::getId(): app\models\integer and myframe\core\components\UserIdentityInterface::getId(): myframe\core\components\integer, because class app\models\integer is not available;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 66;
+        //============================================//
+
+[25-01-2020 19:16:11];
+        Текст ошибки: Declaration of app\models\User::getId(): int must be compatible with myframe\core\components\UserIdentityInterface::getId(): myframe\core\components\integer;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 66;
+        //============================================//
+
+[25-01-2020 19:16:57];
+        Текст ошибки: Undefined index: auth_key;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/App.php;
+        Строка ошибки: 51;
+        //============================================//
+
+[25-01-2020 19:17:50];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:27];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:28];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:29];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:41];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:44];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:20:44];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:25:54];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:25:55];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:25:55];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:25:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:26:17];
+        Текст ошибки: Undefined property: app\models\User::$isGuest;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 17;
+        //============================================//
+
+[25-01-2020 19:26:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:26:44];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:26:45];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:26:45];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:26:45];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:27:03];
+        Текст ошибки: Undefined property: app\models\User::$id;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 68;
+        //============================================//
+
+[25-01-2020 19:27:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:27:13];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:27:15];
+        Текст ошибки: Undefined property: app\models\User::$id;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 68;
+        //============================================//
+
+[25-01-2020 19:27:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:27:27];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:46:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:46:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:46:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:46:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:49:25];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:49:25];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:52:48];
+        Текст ошибки: syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{';
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/components/user/UserIdentityInterface.php;
+        Строка ошибки: 15;
+        //============================================//
+
+[25-01-2020 19:52:57];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 19:52:57];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:01:22];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:01:22];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:04:46];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:12:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:12:34];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:12:35];
+        Текст ошибки: Class 'myframe\libs\Debug' not found;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[25-01-2020 20:12:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:12:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:24];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:28];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:38];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:38];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:40];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:13:58];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:14:32];
+        Текст ошибки: Typed property app\models\User::$email must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 21;
+        //============================================//
+
+[25-01-2020 20:16:31];
+        Текст ошибки: Typed property app\models\User::$email must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 23;
+        //============================================//
+
+[25-01-2020 20:24:39];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:24:39];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:25:40];
+        Текст ошибки: Call to undefined method app\models\User::uploadData();
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 22;
+        //============================================//
+
+[25-01-2020 20:34:32];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:34:51];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:36:05];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:36:35];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:36:45];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:39:05];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:39:10];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:39:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:39:14];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:39:17];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:40:18];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[25-01-2020 20:42:36];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:42:36];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:43:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:43:56];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:44:50];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:44:50];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 20:58:59];
+        Текст ошибки: Class 'app\controllers\Model' not found;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[25-01-2020 21:00:24];
+        Текст ошибки: Class 'app\core\base\Model' not found;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 20;
+        //============================================//
+
+[25-01-2020 21:00:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 21:00:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 21:02:43];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:09:54];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:09:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:09:59];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:19:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:19:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:19:24];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:19:46];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:19:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:20:09];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:20:27];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:22:55];
+        Текст ошибки: Typed property app\models\User::$name must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/controllers/UserController.php;
+        Строка ошибки: 23;
+        //============================================//
+
+[25-01-2020 22:26:09];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:26:09];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:26:22];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:26:22];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:26:29];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:26:49];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 22:31:46];
+        Текст ошибки: Определите свойство attributes в
+                классе myframe\core\base\Model;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 49;
+        //============================================//
+
+[25-01-2020 22:37:09];
+        Текст ошибки: Определите свойство attributes в модели с которой работаете.;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 49;
         //============================================//
 

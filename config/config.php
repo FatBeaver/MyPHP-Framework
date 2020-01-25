@@ -2,7 +2,8 @@
 
 $config = [
     'components' => [
-        'cache' => 'myframe\core\components\Cache',
+        'user' => 'app\models\User',
+        'cache' => 'myframe\core\components\cahce\Cache',
     ],
     'db' => [
         'dsn' => 'mysql:host=127.0.0.1;dbname=epframe;charset=utf8',
