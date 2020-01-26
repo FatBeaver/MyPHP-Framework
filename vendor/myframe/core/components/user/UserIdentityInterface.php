@@ -13,7 +13,7 @@ interface UserIdentityInterface
 
     public function isGuest(): bool;
 
-    public function setPassword(string $password): bool;
+    public function setPassword(string $password): void;
 
     public function validatePassword(string $password): bool;
 
@@ -23,5 +23,9 @@ interface UserIdentityInterface
 
     public function generateAuthKey(): string;
 
-    public function validateAuthKey(string $auth_key): bool;
+    public function login(): bool;
+
+    public function logout(): bool;
+
+    public function signUp(): bool;
 }

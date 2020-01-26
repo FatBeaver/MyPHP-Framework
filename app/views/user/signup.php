@@ -1,5 +1,11 @@
 <h1>Регистрация</h1>
 
+<?php if (isset($_SESSION['errors'])): ?>
+    <div class="alert alert-danger">
+        <?= $_SESSION['errors']; unset($_SESSION['errors']) ?>
+    </div>
+<?php endif; ?>
+
 <form action="/user/sign-up" method="POST">
     <div class="form-group">
         <label for="exampleInputEmail1">Email </label>
@@ -23,7 +29,8 @@
                value="<?=isset($_SESSION['form_data']['login']) ? $_SESSION['form_data']['login'] : ''?>">
     </div>
     <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1"
+               name="rememberMe" value="1">
         <label class="form-check-label" for="exampleCheck1">Запомнить меня:</label>
     </div>
     <button type="submit" name="submit" class="btn btn-primary">Регистрация</button>

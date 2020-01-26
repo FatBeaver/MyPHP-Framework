@@ -4,6 +4,7 @@ namespace app\models;
 
 use myframe\core\base\Model;
 use myframe\core\components\user\UserIdentityInterface;
+use myframe\libs\Debug;
 
 class User extends Model implements UserIdentityInterface
 {
@@ -13,6 +14,13 @@ class User extends Model implements UserIdentityInterface
      * @var string
      */
     public static string $tableName = 'user';
+
+    /**
+     * Флаг для создания auth_key
+     *
+     * @var bool
+     */
+    public bool $rememberMe = false;
 
     /**
      * Логин пользователя.
@@ -51,17 +59,38 @@ class User extends Model implements UserIdentityInterface
 
 
     /**
-     * Содержит аттрибуты неоходимые для автозагрузки
-     * свойств в экземпляр класса.
+     * Содержит аттрибуты неоходимые для автозагрузки и
+     * валидации свойств экземпляра данного класса.
      *
      * Перечислите те свойства которые должны заполняться при
-     * автозагузке.
+     * автозагузке и проходить валидацию.
      *
      * @var array
      */
     public array $attributes = [
-        'login', 'password', 'email', 'name', 'rememberMe'
+        'login', 'password', 'email', 'name', 'rememberMe',
     ];
+
+    /**
+     * Правила валидации данных.
+     *
+     * @var array
+     */
+    public array $rules = [
+        'required' => [
+            ['login'], ['password'], ['email'], ['name'],
+        ],
+        'lengthMin' => [
+            ['password', 6],
+        ],
+        'email' => [
+            ['email'],
+        ],
+        'lengthMax' => [
+            ['name', 255]
+        ]
+    ];
+
 
     /**
      * Возвращает ID текущего экземпляра
@@ -89,11 +118,11 @@ class User extends Model implements UserIdentityInterface
      *
      * @param string $password
      *
-     * @return bool
+     * @return void
      */
-    public function setPassword(string $password): bool
+    public function setPassword(string $password): void
     {
-        $this->password = password_hash($password, PASSWORD_DEFAULT);
+        $this->password = password_hash($password, PASSWORD_BCRYPT);
     }
 
     /**
@@ -144,18 +173,81 @@ class User extends Model implements UserIdentityInterface
      */
     public function generateAuthKey(): string
     {
-        $this->auth_key = random_bytes(10);
+        $this->auth_key = md5($this->email . $this->password . $this->name . time() . rand(0, 1000));
+        return $this->auth_key;
     }
 
+
     /**
-     * Валидирует ключи аутентификации.
-     *
-     * @param string $auth_key
+     * Регистрирует пользователя
      *
      * @return bool
      */
-    public function validateAuthKey(string $auth_key): bool
+    public function signUp(): bool
     {
-        return $this->auth_key === $auth_key;
+        $newUser = User::dispense(User::$tableName);
+        $newUser->login = $this->login;
+        $newUser->name = $this->name;
+        $newUser->email = $this->email;
+        $this->setPassword($this->password);
+        $newUser->password = $this->password;
+        $newUser->auth_key = $this->generateAuthKey();
+
+        if (User::store($newUser)) {
+            if ($this->rememberMe === false) {
+                $_SESSION['user'] = User::findOne(User::$tableName, 'id = ?', [$newUser->id]);
+                $_SESSION['user']->changeUserStatus();
+            } else {
+                setcookie('auth_key', $this->auth_key, time() + 3600 * 24 * 30, '/');
+            }
+            $_SESSION['success'] = 'Вы успешно прошли регистрацию!';
+            return true;
+        } else {
+            throw new \Exception('Ошибка. Регистрация не удалась, повторите попытку пойзже.');
+            return false;
+        }
+
+    }
+
+    /**
+     * Авторизует пользователя
+     *
+     * @return bool
+     */
+    public function login(): bool
+    {
+        $this->setPassword($this->password);
+        $user = User::findOne(User::$tableName, 'email = ?', [$this->email]);
+
+        if ($this->validatePassword($this->password, $user->password)) {
+            $user = null;
+            $_SESSION['error-login'] = 'Неправлиьный логин или пароль!';
+        }
+
+        if (!$user) {
+            return false;
+        } else {
+            if ($this->rememberMe === false) {
+                $_SESSION['user'] = $user;
+                $_SESSION['user']->changeUserStatus();
+            } else {
+                setcookie('auth_key', $user->auth_key, time() + 3600 * 24 * 30, '/');
+            }
+            $_SESSION['success'] = 'Вы успешно авторизировались!';
+            return true;
+        }
+    }
+
+    /**
+     * Удаляет пользователя из сессии а так же
+     * его куки $auth_key
+     *
+     * @return bool
+     */
+    public function logout(): bool
+    {
+        setcookie('auth_key', '', time() - 36000, '/');
+        unset($_SESSION['user']);
+        return true;
     }
 }

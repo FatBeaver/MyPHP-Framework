@@ -6,7 +6,7 @@ class Register
 {
     private static $instance;
 
-    public $container = [];
+    public array $container = [];
 
     public function __construct($components)
     {
@@ -26,8 +26,11 @@ class Register
 
     public function __get($name)
     {
-        $component = new $this->container[$name];
+        if ($name == 'user' && (is_object($this->container['user']))) {
+            return $this->container['user'];
+        }
 
+        $component = new $this->container[$name];
         if (is_object($component)) {
             return $component;
         } else {

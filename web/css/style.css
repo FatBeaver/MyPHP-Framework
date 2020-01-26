@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.validate-errors li {
+    list-style-type: none;
+    font-size: 20px;
+}
 .nav-bar {
     display: flex;
     flex-direction: row;
+}
+.nav-bar li {
+    list-style-type: none;
+    margin-left: 20px;
 }

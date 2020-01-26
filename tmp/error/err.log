@@ -2027,3 +2027,843 @@
         Строка ошибки: 49;
         //============================================//
 
+[25-01-2020 23:10:51];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[25-01-2020 23:10:51];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:34:42];
+        Текст ошибки: A void function must not return a value;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 87;
+        //============================================//
+
+[26-01-2020 01:34:42];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:35:17];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:35:19];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:36:26];
+        Текст ошибки: Typed property myframe\core\base\Model::$valuesForValidate must be array, string used;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 74;
+        //============================================//
+
+[26-01-2020 01:37:13];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:37:13];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:38:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:39:33];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:40:13];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:40:24];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:40:48];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:41:10];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:41:11];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:41:11];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:41:13];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:41:16];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:41:16];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 01:45:47];
+        Текст ошибки: Return value of app\models\User::generateAuthKey() must be of the type string, none returned;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 176;
+        //============================================//
+
+[26-01-2020 01:46:50];
+        Текст ошибки: Declaration of app\models\User::generateAuthKey(): void must be compatible with myframe\core\components\user\UserIdentityInterface::generateAuthKey(): string;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 173;
+        //============================================//
+
+[26-01-2020 01:48:47];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 84 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:50:47];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 84 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:50:54];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 84 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:53:19];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 84 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:53:37];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 85 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:54:20];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 86 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:55:21];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 86 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 01:56:24];
+        Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xCCF;.\x82\xB7...' for column 'auth_key' at row 1;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[26-01-2020 01:56:43];
+        Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\x9F\xD9\xFF\xAF\xAC\xC6...' for column 'auth_key' at row 1;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[26-01-2020 12:45:50];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 12:46:02];
+        Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE2\xEF\xF7\x88\x87\x11...' for column 'auth_key' at row 1;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[26-01-2020 12:48:22];
+        Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE0*#Y>' for column 'auth_key' at row 1;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[26-01-2020 12:48:42];
+        Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xDE2Sg:\x8E...' for column 'auth_key' at row 1;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[26-01-2020 12:49:21];
+        Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xB7y\x11\xB0\x91\xBE...' for column 'auth_key' at row 1;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php;
+        Строка ошибки: 194;
+        //============================================//
+
+[26-01-2020 12:52:21];
+        Текст ошибки: Return value of app\models\User::signUp() must be of the type bool, none returned;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 207;
+        //============================================//
+
+[26-01-2020 12:52:43];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:53:09];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:53:56];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:22];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:26];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:26];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:29];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:32];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:51];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:52];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:52];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:57];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:58];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:58];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:54:58];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:01];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:01];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:05];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:05];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:07];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:07];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:58];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:58];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:59];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:55:59];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:56:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:56:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:56:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:56:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:56:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 12:56:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:10:12];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:10:12];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:15:57];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 13:23:43];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:23:54];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:23:54];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:24:52];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:24:57];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:25:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:25:00];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:31:50];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:34];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:36];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:36];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:37];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:37];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:37];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:32:37];
+        Текст ошибки: Call to a member function findOne() on null;
+Файл ошибки: /var/www/myframe.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php;
+        Строка ошибки: 989;
+        //============================================//
+
+[26-01-2020 13:34:30];
+        Текст ошибки: Cannot access protected property app\models\User::$isGuest;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/App.php;
+        Строка ошибки: 60;
+        //============================================//
+
+[26-01-2020 14:52:52];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 14:53:39];
+        Текст ошибки: Typed property app\models\User::$name must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 13;
+        //============================================//
+
+[26-01-2020 14:54:03];
+        Текст ошибки: Typed property app\models\User::$name must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 15;
+        //============================================//
+
+[26-01-2020 14:54:03];
+        Текст ошибки: Typed property app\models\User::$name must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/controllers/MainController.php;
+        Строка ошибки: 15;
+        //============================================//
+
+[26-01-2020 15:01:17];
+        Текст ошибки: Cannot use object of type myframe\core\Register as array;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/App.php;
+        Строка ошибки: 78;
+        //============================================//
+
+[26-01-2020 15:15:58];
+        Текст ошибки: Class name must be a valid object or a string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[26-01-2020 15:17:20];
+        Текст ошибки: Class name must be a valid object or a string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[26-01-2020 15:17:21];
+        Текст ошибки: Class name must be a valid object or a string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[26-01-2020 15:17:21];
+        Текст ошибки: Class name must be a valid object or a string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[26-01-2020 15:32:19];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 15:38:38];
+        Текст ошибки: Call to undefined method myframe\core\components\user\UserIdentityInterface::findOne();
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/App.php;
+        Строка ошибки: 59;
+        //============================================//
+
+[26-01-2020 15:44:40];
+        Текст ошибки: Call to a member function changeUserStatus() on string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/App.php;
+        Строка ошибки: 65;
+        //============================================//
+
+[26-01-2020 16:04:09];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 16:06:52];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:08:54];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:08:54];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:08:55];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:09:04];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:09:12];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:09:12];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 16:09:18];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:09:20];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:09:20];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:09:21];
+        Текст ошибки: Trying to get property 'isGuest' of non-object;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:11:28];
+        Текст ошибки: Trying to get property 'auth_key' of non-object;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 29;
+        //============================================//
+
+[26-01-2020 16:16:44];
+        Текст ошибки: Cannot access protected property app\models\User::$isGuest;
+Файл ошибки: /var/www/myframe.com/app/views/layouts/default.php;
+        Строка ошибки: 19;
+        //============================================//
+
+[26-01-2020 16:19:26];
+        Текст ошибки: Class name must be a valid object or a string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 33;
+        //============================================//
+
+[26-01-2020 16:34:23];
+        Текст ошибки: Class name must be a valid object or a string;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Register.php;
+        Строка ошибки: 33;
+        //============================================//
+
+[26-01-2020 16:35:31];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 17:07:26];
+        Текст ошибки: Return value of app\models\User::setPassword() must be of the type bool, none returned;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 125;
+        //============================================//
+
+[26-01-2020 18:16:47];
+        Текст ошибки: Rule '0' has not been registered with Valitron\Validator::addRule().;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1383;
+        //============================================//
+
+[26-01-2020 18:23:22];
+        Текст ошибки: Too few arguments to function Valitron\Validator::rule(), 1 passed in /var/www/myframe.com/vendor/myframe/core/base/Model.php on line 89 and exactly 2 expected;
+Файл ошибки: /var/www/myframe.com/vendor/vlucas/valitron/src/Valitron/Validator.php;
+        Строка ошибки: 1366;
+        //============================================//
+
+[26-01-2020 18:33:39];
+        Текст ошибки: Class 'myframe\core\base\V' not found;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 95;
+        //============================================//
+
+[26-01-2020 18:37:32];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 18:38:15];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 18:57:15];
+        Текст ошибки: Undefined offset: 1;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/base/Model.php;
+        Строка ошибки: 80;
+        //============================================//
+
+[26-01-2020 20:06:09];
+        Текст ошибки: Too few arguments to function app\models\User::setPassword(), 0 passed in /var/www/myframe.com/app/models/User.php on line 219 and exactly 1 expected;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 123;
+        //============================================//
+
+[26-01-2020 20:16:36];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/user/login.php;
+        Строка ошибки: 5;
+        //============================================//
+
+[26-01-2020 20:17:36];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/user/login.php;
+        Строка ошибки: 5;
+        //============================================//
+
+[26-01-2020 20:18:39];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/user/login.php;
+        Строка ошибки: 5;
+        //============================================//
+
+[26-01-2020 20:18:41];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/main/index.php;
+        Строка ошибки: 3;
+        //============================================//
+
+[26-01-2020 20:18:41];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/main/index.php;
+        Строка ошибки: 3;
+        //============================================//
+
+[26-01-2020 20:19:00];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/main/index.php;
+        Строка ошибки: 3;
+        //============================================//
+
+[26-01-2020 20:19:12];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/main/index.php;
+        Строка ошибки: 3;
+        //============================================//
+
+[26-01-2020 20:19:22];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/main/index.php;
+        Строка ошибки: 3;
+        //============================================//
+
+[26-01-2020 20:19:26];
+        Текст ошибки: Array to string conversion;
+Файл ошибки: /var/www/myframe.com/app/views/main/index.php;
+        Строка ошибки: 3;
+        //============================================//
+
+[26-01-2020 20:19:26];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 20:21:15];
+        Текст ошибки: Call to undefined function app\models\validatePassword();
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 222;
+        //============================================//
+
+[26-01-2020 20:21:33];
+        Текст ошибки: Typed property app\models\User::$auth_key must not be accessed before initialization;
+Файл ошибки: /var/www/myframe.com/app/models/User.php;
+        Строка ошибки: 234;
+        //============================================//
+
+[26-01-2020 20:22:46];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+
+[26-01-2020 20:22:57];
+        Текст ошибки: Страница не найдена;
+Файл ошибки: /var/www/myframe.com/vendor/myframe/core/Router.php;
+        Строка ошибки: 140;
+        //============================================//
+

@@ -6,6 +6,7 @@ use app\models\User;
 use myframe\core\Register;
 use myframe\core\Router;
 use myframe\core\base\ErrorHandler;
+use myframe\libs\Debug;
 
 /**
  * Основной класс фреймворка, экземпляр которого создается во
@@ -36,6 +37,8 @@ class App
      * 
      * Конструктор класса;
      * Загружает массив конфигурации в приватное свойство $this->config;
+     *
+     * Открывает сессию.
      */
     public function __construct(array $config)
     {
@@ -43,25 +46,34 @@ class App
         self::$config = $config;
     }
 
-    private function authByCookie()
+    /**
+     * Авторизация пользователя по куки файлу
+     * auth_key
+     *
+     * @return void
+     */
+    private function authByCookie(): void
     {
-        self::$components->user = User::findOne(
+        Db::connect();
+        self::$components->container['user'] = User::findOne(
             User::$tableName,
             'auth_key = ?',
             [$_COOKIE['auth_key']],
         );
-        $_SESSION['user']['auth_key'] = $_COOKIE['auth_key'];
-        self::$components->user->isGuest = false;
+        Db::close();
+
+        self::$components->user->changeUserStatus();
+        $_SESSION['user'] = self::$components->user;
     }
 
-    private function authBySession()
+    /**
+     * Авторизация пользователя по данным из сессии.
+     *
+     * @return void
+     */
+    private function authBySession(): void
     {
-        self::$components->user = User::findOne(
-            User::$tableName,
-            'auth_key = ?',
-            [$_SESSION['user']['auth_key']],
-        );
-        self::$components->user->isGuest = false;
+        self::$components->container['user'] = $_SESSION['user'];
     }
 
     /**
@@ -78,7 +90,7 @@ class App
         new ErrorHandler();
         self::$components = Register::instance(self::$config['components']);
 
-        if (isset($_SESSION['user']['auth_key'])) {
+        if (isset($_SESSION['user']) && !empty($_SESSION['user'])) {
             $this->authBySession();
         } elseif (isset($_COOKIE['auth_key'])) {
             $this->authByCookie();

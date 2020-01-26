@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="<?=WEB . '/css/style.css'?>">
+    <link rel="stylesheet" href="/css/style.css">
     <title>DEFAULT LAYOUT</title>
 </head>
 <body>
@@ -16,23 +16,15 @@
         <div>
             <ul class="nav-bar">
                 <li><a href="/">Главная</a></li>
-                <li><a href="/user/login">Логин</a></li>
-                <li><a href="/user/sign-up">Регистрация</a></li>
                 <li><a href="/admin-panel">Админ-панель</a></li>
+                <?php if(\myframe\core\App::$components->user->isGuest()): ?>
+                    <li><a href="/user/login">Логин</a></li>
+                    <li><a href="/user/sign-up">Регистрация</a></li>
+                <?php else: ?>
+                    <li><a href="/user/logout">Выйти</a></li>
+                <?php endif; ?>
             </ul>
         </div>
-
-        <?php if (isset($_SESSION['error'])): ?>
-            <div class="alert alert-danger">
-                <?= $_SESSION['error']; unset($_SESSION['error']) ?>
-            </div>
-        <?php endif; ?>
-
-        <?php if (isset($_SESSION['success'])): ?>
-            <div class="alert alert-success">
-                <?= $_SESSION['success']; unset($_SESSION['success']) ?>
-            </div>
-        <?php endif; ?>
 
         <?= $content ?>
 
