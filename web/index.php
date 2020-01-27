@@ -29,4 +29,4 @@ require_once ROOT . '/vendor/autoload.php';
 
 $config = require_once CONFIG . '/config.php';
 
-(new \myframe\core\App($config))->run(); 
+(new \myframe\core\App($config))->run();

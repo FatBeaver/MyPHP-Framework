@@ -9,8 +9,6 @@ namespace myframe\core\components\user;
  */
 interface UserIdentityInterface
 {
-    public function getId(): int;
-
     public function isGuest(): bool;
 
     public function setPassword(string $password): void;

@@ -42,7 +42,9 @@ class Router
      * Метод проходит в цикле по всем маршрутам и ищет совпадения со
      * строкой запроса. В случае успеха присваивает имя Контроллера и Действия
      * в свойство класса (массив)$this->route и возвращает TRUE;
-     * 
+     *
+     * Заполняет массив $_GET параметрами исходя из шаблона рег. выражения.
+     *
      * Если совпадений маршрутов со строкой запроса не найденно метод вернёт FALSE;
      */
     private function searchMatchRoute(string $queryString) : bool
@@ -51,6 +53,9 @@ class Router
             if (preg_match("#$pattern#i", $queryString, $matches)) {
                 foreach ($matches as $key => $value) {
                     if (is_string($key)) {
+                        if (($key != 'action') && ($key != 'controller')) {
+                            $_GET[$key] = $value;
+                        }
                         $route[$key] = $value;
                     }
                 }

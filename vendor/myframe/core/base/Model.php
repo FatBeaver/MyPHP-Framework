@@ -4,7 +4,6 @@ namespace myframe\core\base;
 
 use myframe\core\Db;
 use Valitron\Validator;
-use myframe\libs\Debug;
 
 class Model extends Db
 {
@@ -89,14 +88,11 @@ class Model extends Db
      *
      * @return bool
      */
-    public function validate(array $userRules = null): bool
+    public function validate(array $userRules): bool
     {
-        if ($userRules !== null) {
-            $this->rules = $userRules;
-        }
         Validator::lang('ru');
         $validator = new Validator($this->valuesForValidate);
-        $validator->rules($this->rules);
+        $validator->rules($userRules);
         if ($validator->validate()) {
             return true;
         } else {

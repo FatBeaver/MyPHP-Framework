@@ -3,9 +3,8 @@
 namespace app\controllers;
 
 use app\models\User;
-use myframe\core\Db;
 use myframe\core\base\Controller;
-
+use myframe\core\App;
 /**
  * class UserController
  *
@@ -13,47 +12,50 @@ use myframe\core\base\Controller;
  */
 class UserController extends Controller
 {
+    /**
+     * Действие регистрирующее пользователя;
+     *
+     * @throws \Exception
+     */
     public function actionSignUp(): void
     {
         if (isset($_POST['submit'])) {
+
             $user = new User();
-            if ($user->uploadData($_POST) && $user->validate()) {
+
+            if ($user->uploadData($_POST) && $user->validate($user->rulesForSignUp)) {
                 $user->signUp();
                 $this->redirect('/');
             }
         }
+
         $this->render('signup');
     }
 
-
-    public function actionLogin():void
+    /**
+     * Действие авторизующее пользователя
+     *
+     * @throws \Exception
+     */
+    public function actionLogin(): void
     {
         if (isset($_POST['submit'])) {
-
-            $userRules = [
-                'required' => [
-                    ['password'], ['email'],
-                ],
-                'lengthMin' => [
-                    ['password', 6],
-                ],
-                'email' => [
-                    ['email'],
-                ],
-            ];
-
             $user = new User();
-            if ($user->uploadData($_POST) && $user->validate($userRules)) {
+
+            if ($user->uploadData($_POST) && $user->validate($user->rulesForLogin)) {
                 if ($user->login()) {
                     $this->redirect('/');
                 }
                 $this->redirect('/user/login');
             }
         }
+
         $this->render('login');
     }
 
-
+    /**
+     * Дейсвтие разлогинивающее пользователя
+     */
     public function actionLogout(): void
     {
         $user = new User();

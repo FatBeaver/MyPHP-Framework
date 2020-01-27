@@ -4,6 +4,7 @@ $config = [
     'components' => [
         'user' => 'app\models\User',
         'cache' => 'myframe\core\components\cahce\Cache',
+        'request' => 'myframe\core\components\request\Request',
     ],
     'db' => [
         'dsn' => 'mysql:host=127.0.0.1;dbname=epframe;charset=utf8',

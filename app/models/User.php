@@ -4,7 +4,6 @@ namespace app\models;
 
 use myframe\core\base\Model;
 use myframe\core\components\user\UserIdentityInterface;
-use myframe\libs\Debug;
 
 class User extends Model implements UserIdentityInterface
 {
@@ -72,11 +71,12 @@ class User extends Model implements UserIdentityInterface
     ];
 
     /**
-     * Правила валидации данных.
+     * Правила валидации данных для
+     * формы регистрации.
      *
      * @var array
      */
-    public array $rules = [
+    public array $rulesForSignUp = [
         'required' => [
             ['login'], ['password'], ['email'], ['name'],
         ],
@@ -91,17 +91,22 @@ class User extends Model implements UserIdentityInterface
         ]
     ];
 
-
     /**
-     * Возвращает ID текущего экземпляра
-     * класса User.
+     * Правила валидации для формы авторизации.
      *
-     * @return int
+     * @var array
      */
-    public function getId(): int
-    {
-        return $this->id;
-    }
+    public array $rulesForLogin =  [
+        'required' => [
+            ['password'], ['email'],
+        ],
+        'lengthMin' => [
+            ['password', 6],
+        ],
+        'email' => [
+            ['email'],
+        ],
+    ];
 
     /**
      * Возвращает состояние пользователя.
@@ -135,7 +140,7 @@ class User extends Model implements UserIdentityInterface
      */
     public function validatePassword(string $password): bool
     {
-        return password_verify($password, $this->password);
+        return password_verify($this->password, $password);
     }
 
     /**
@@ -216,16 +221,15 @@ class User extends Model implements UserIdentityInterface
      */
     public function login(): bool
     {
-        $this->setPassword($this->password);
         $user = User::findOne(User::$tableName, 'email = ?', [$this->email]);
 
-        if ($this->validatePassword($this->password, $user->password)) {
+        if (!$this->validatePassword($user->password)) {
             $user = null;
             $_SESSION['error-login'] = 'Неправлиьный логин или пароль!';
         }
 
         if (!$user) {
-            return false;
+            throw new \Exception('Пользователь не найден.');
         } else {
             if ($this->rememberMe === false) {
                 $_SESSION['user'] = $user;
