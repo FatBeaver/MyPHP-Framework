@@ -10,4 +10,4 @@
     </div>
 <?php endif; ?>
 
-<p>HELLOO MAZAFAKA</p>
+<h1>MAIN PAGE</h1>

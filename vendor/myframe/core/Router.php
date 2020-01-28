@@ -53,7 +53,7 @@ class Router
             if (preg_match("#$pattern#i", $queryString, $matches)) {
                 foreach ($matches as $key => $value) {
                     if (is_string($key)) {
-                        if (($key != 'action') && ($key != 'controller')) {
+                        if (($key != 'action') && ($key != 'controller') && ($key != 'prefix')) {
                             $_GET[$key] = $value;
                         }
                         $route[$key] = $value;

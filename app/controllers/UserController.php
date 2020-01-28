@@ -4,7 +4,7 @@ namespace app\controllers;
 
 use app\models\User;
 use myframe\core\base\Controller;
-use myframe\core\App;
+
 /**
  * class UserController
  *

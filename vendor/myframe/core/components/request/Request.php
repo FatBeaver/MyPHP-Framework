@@ -56,21 +56,6 @@ class Request
     }
 
     /**
-     * Устанавливает куки.
-     *
-     * @param string $key
-     * @param mixed  $value
-     * @param int    $time
-     *
-     * @return Request
-     */
-    public function setCookie(string $key, mixed $value, int $time): Request
-    {
-        setcookie($key, $value, time() + $time, '/');
-        return $this;
-    }
-
-    /**
      * Удаляет куки.
      *
      * @param string $key
