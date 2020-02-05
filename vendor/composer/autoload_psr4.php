@@ -10,4 +10,7 @@ return array(
     'app\\' => array($baseDir . '/app'),
     'Valitron\\' => array($vendorDir . '/vlucas/valitron/src/Valitron'),
     'RedBeanPHP\\' => array($vendorDir . '/gabordemooij/redbean/RedBeanPHP'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
+    'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),
+    'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
 );

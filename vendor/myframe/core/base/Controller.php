@@ -37,7 +37,7 @@ class Controller
      *
      * @param bool|string $url
      */
-    protected function redirect($url = false): void
+    protected function redirect($url = false)
     {
         if ($url) {
             $redirect = $url;
@@ -54,11 +54,12 @@ class Controller
      * Метод вызываемый из дочерних контроллеров.
      * Отображает вид с нужным шаблоном или же без него.
      */
-    protected function render(string $view, array $data = null) : void
+    protected function render(string $view, array $data = null) : bool
     {   
         $viewObject = new View($view, $data, $this->route['controller'], 
             $this->route['prefix'], $this->layout);
             
         $viewObject->renderView();
+        return true;
     }
 }

@@ -11,14 +11,14 @@ use myframe\libs\uploader\NewFileClass;
 class FileUploader
 {
     /**
-     * Массив $_FILES
+     * Создает экземпляр класса NewFileClass
+     * св-ва которого являются ключами массива $_FILES
      *
-     * @var array
+     * @param string $inputName
+     *
+     * @return \myframe\libs\uploader\NewFileClass
      */
-    public static array $files;
-
-
-    public static function addFile($inputName)
+    public static function addFile(string $inputName)
     {
         $file = new NewFileClass($_FILES[$inputName]['name'],
             $_FILES[$inputName]['type'], $_FILES[$inputName]['tmp_name'],
@@ -28,10 +28,26 @@ class FileUploader
         return $file;
     }
 
-    public static function addFiles($pathToDir)
+    /**
+     * Создает экземпляры класса NewFileClass
+     * св-ва которых являются ключами массива $_FILES
+     *
+     * @param string $inputName
+     *
+     * @return array
+     */
+    public static function addFiles(string $inputName)
     {
+        $newFilesArray = self::modifyFilesArray($inputName);
 
+        $files = [];
+        foreach ($newFilesArray as $file) {
+            $files[] = new NewFileClass($file['name'], $file['type'], $file['tmp_name'],
+                $file['error'], $file['size']);
+        }
+        return $files;
     }
+
 
     /**
      * Реструктурирует массив $_FILES в следующий вид:
@@ -63,17 +79,17 @@ class FileUploader
      *
      * @return array
      */
-    private static function modifyFilesArray()
+    private static function modifyFilesArray(string $inputName)
     {
         $newFilesArr = [];
-        foreach ($_FILES as $inputName => $arraysOfType) {
-            $countFiles = count($arraysOfType['name']) - 1;
-            for ($i = 0; $i <= $countFiles; $i++) {
-                foreach ($arraysOfType as $type => &$values) {
-                    $newFilesArr[$inputName][$i][$type] = array_shift($values);
-                }
+
+        $countFiles = count($_FILES[$inputName]['name']) - 1;
+        for ($i = 0; $i <= $countFiles; $i++) {
+            foreach ($_FILES[$inputName] as $type => &$values) {
+                $newFilesArr[$inputName][$i][$type] = array_shift($values);
             }
         }
-        self::$files = $newFilesArr;
+
+        return $newFilesArr[$inputName];
     }
 }

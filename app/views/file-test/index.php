@@ -3,7 +3,7 @@
 
     <div class="form-group">
         <label for="file">Files</label>
-        <input type="file" name="user-file[]" multiple class="form-control" id="file" placeholder="File">
+        <input type="file" name="user-file"  class="form-control" id="file" placeholder="File">
     </div>
 
     <div class="form-group">

@@ -8,8 +8,12 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myframe/core" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myframe/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/valitron" />
     </content>
     <orderEntry type="inheritedJdk" />

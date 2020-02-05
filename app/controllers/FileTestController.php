@@ -6,6 +6,7 @@ namespace app\controllers;
 use myframe\core\base\Controller;
 use myframe\libs\uploader\FileUploader;
 use myframe\libs\debug\Debug;
+use app\models\ImagesUploader;
 
 /**
  * Class for testing upload files
@@ -16,9 +17,17 @@ class FileTestController extends Controller
     {
         if (isset($_POST['submit'])) {
 
-            Debug::print(FileUploader::addFile());die;
+            $imgUploader = new ImagesUploader();
+            $imgUploader->images = FileUploader::addFiles('user-file-2');
+
+            if ($imgUploader->validate(15)) {
+                $imgUploader->upload('/category/');
+                return $this->redirect('/file-test/index');
+            } else {
+                echo 'NO'; die;
+            }
         }
 
-        $this->render('index', []);
+        return $this->render('index', []);
     }
 }

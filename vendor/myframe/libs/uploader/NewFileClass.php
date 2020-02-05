@@ -35,7 +35,7 @@ class NewFileClass
      *
      * @var string
      */
-    public string $error;
+    public int $error;
 
     /**
      * Размер файла в байтах
@@ -55,7 +55,7 @@ class NewFileClass
      * Конструктор.
      */
     public function __construct(string $fileName, string $fileType,
-        string $fileTmpName, string $fileError, int $fileSize)
+        string $fileTmpName, int $fileError, int $fileSize)
     {
         $this->spliceFileName($fileName);
         $this->type = $fileType;
@@ -72,9 +72,13 @@ class NewFileClass
      */
     private function spliceFileName($fileName): void
     {
-        $fileNameChunks = explode('.', $fileName);
-        $this->baseName = $fileNameChunks[0];
-        $this->extension = $fileNameChunks[1];
+        $pattern = '(?P<baseName>.+)(?P<extension>\.[a-z_0-9]{1,6})';
+        if (preg_match("#$pattern#i", $fileName, $matches)) {
+            $this->extension = $matches['extension'];
+            $this->baseName = $matches['baseName'];
+        } else {
+            throw new \Exception('Нельзя обработать данный файл.');
+        }
     }
 
     /**

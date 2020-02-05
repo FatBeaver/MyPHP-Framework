@@ -2,7 +2,8 @@
     "name": "myframe/myframe",
     "require": {
         "gabordemooij/redbean": "dev-master",
-        "vlucas/valitron": "^1.4"
+        "vlucas/valitron": "^1.4",
+        "intervention/image": "^2.5"
     },
     "autoload": {
         "psr-4": {
