@@ -18,7 +18,7 @@
                 <li><a href="/">Главная</a></li>
                 <li><a href="/file-test">Файл тест</a></li>
                 <li><a href="/admin-panel">Админ-панель</a></li>
-                <?php if(\myframe\core\App::$components->user->isGuest()): ?>
+                <?php if(\myframe\core\App::$components->user->isGuest): ?>
                     <li><a href="/user/login">Логин</a></li>
                     <li><a href="/user/sign-up">Регистрация</a></li>
                 <?php else: ?>

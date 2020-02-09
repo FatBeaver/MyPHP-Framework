@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\LoginForm;
+use app\models\SignUpForm;
 use app\models\User;
 use myframe\core\base\Controller;
 
@@ -21,10 +23,10 @@ class UserController extends Controller
     {
         if (isset($_POST['submit'])) {
 
-            $user = new User();
+            $signUpForm = new SignUpForm();
 
-            if ($user->uploadData($_POST) && $user->validate($user->rulesForSignUp)) {
-                $user->signUp();
+            if ($signUpForm->uploadData($_POST) && $signUpForm->validate($signUpForm->rules)) {
+                $signUpForm->signUp();
                 $this->redirect('/');
             }
         }
@@ -40,16 +42,15 @@ class UserController extends Controller
     public function actionLogin(): void
     {
         if (isset($_POST['submit'])) {
-            $user = new User();
 
-            if ($user->uploadData($_POST) && $user->validate($user->rulesForLogin)) {
-                if ($user->login()) {
-                    $this->redirect('/');
-                }
-                $this->redirect('/user/login');
+            $loginForm = new LoginForm();
+
+            if ($loginForm->uploadData($_POST) && $loginForm->validate($loginForm->rules)) {
+                $loginForm->login();
+                $this->redirect('/');
             }
         }
-
+        
         $this->render('login');
     }
 
@@ -58,8 +59,7 @@ class UserController extends Controller
      */
     public function actionLogout(): void
     {
-        $user = new User();
-        $user->logout();
+        User::logout();
         $this->redirect('/user/login');
     }
 }

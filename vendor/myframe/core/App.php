@@ -6,7 +6,7 @@ use app\models\User;
 use myframe\core\Register;
 use myframe\core\Router;
 use myframe\core\base\ErrorHandler;
-use myframe\libs\Debug;
+use myframe\libs\debug\Debug;
 
 /**
  * Основной класс фреймворка, экземпляр которого создается во
@@ -55,15 +55,16 @@ class App
     private function authByCookie(): void
     {
         Db::connect();
-        self::$components->container['user'] = User::findOne(
+        $userData = User::findOne(
             User::$tableName,
             'auth_key = ?',
             [$_COOKIE['auth_key']],
         );
         Db::close();
-
-        self::$components->user->changeUserStatus();
-        $_SESSION['user'] = self::$components->user;
+        $attributes = ['password', 'name', 'login', 'auth_key', 'email'];
+        $_SESSION['user'] = User::loadAttrInNewModel($attributes, $userData, new User());
+        $_SESSION['user']->isGuest = false;
+        self::$components->container['user'] = $_SESSION['user'];
     }
 
     /**
@@ -74,6 +75,7 @@ class App
     private function authBySession(): void
     {
         self::$components->container['user'] = $_SESSION['user'];
+        //Debug::print(self::$components->user); die;
     }
 
     /**
@@ -88,6 +90,7 @@ class App
     public function run() : void
     {
         new ErrorHandler();
+
         self::$components = Register::instance(self::$config['components']);
 
         if (isset($_SESSION['user']) && !empty($_SESSION['user'])) {

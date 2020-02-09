@@ -4,11 +4,14 @@ namespace app\controllers;
 
 use myframe\core\App;
 use myframe\core\base\Controller;
+use myframe\libs\debug\Debug;
 
 class MainController extends Controller
 {   
     public function actionIndex()
-    {
+    {   
+        Debug::print(App::$components->user);
+    
         $this->render('index', []);
     }
     

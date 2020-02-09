@@ -8,14 +8,6 @@ use Valitron\Validator;
 class Model extends Db
 {
     /**
-     * True если пользователь НЕ авторизован.
-     * Если пользователь авторизован то False.
-     *
-     * @var bool
-     */
-    protected bool $isGuest = true;
-
-    /**
      * @var array
      *
      * Массив с ошибками валидации.
@@ -36,11 +28,6 @@ class Model extends Db
     public function __construct()
     {
         Db::connect();
-    }
-
-    public function changeUserStatus(): void
-    {
-        $this->isGuest = ($this->isGuest === true) ? false : true;
     }
 
     /**
@@ -100,5 +87,23 @@ class Model extends Db
             $_SESSION['errors'] = $this->htmlBuildErrors();
             return false;
         }
+    }
+
+    /**
+     * Метод для загрузки свойств модели из БД в
+     * нужную модель.
+     */
+    public static function loadAttrInNewModel(
+        array $attributes, 
+        object $dataObj, 
+        object $newObject
+    ): object
+    {
+        foreach($attributes as $attr) {
+            if (isset($dataObj->$attr)) {
+                $newObject->$attr = $dataObj->$attr;
+            }
+        }
+        return $newObject;
     }
 }
