@@ -1,0 +1,34 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Базовые константы для всего приложения;
+ * 
+ * 1) ROOT -- Корень фрэймворка;
+ * 2) APP -- Папка с основными компонентами MVC приложения;
+ * 3) CORE -- Папка с "Движком" фрэймворка;
+ * 4) LIBS -- Папка со вспомогательными классами фрэймворка;
+ * 5) WEB -- Публичная папка (FrontController, js, css, images и т.д);
+ * 6) CONFIG -- Папка с конфигурацией фрэймворка;
+ * 7) RUNTIME -- Папка содержащая временные файлы;
+ * 8) LAYOUT -- Шаблон видов;
+ * 9) DEBUG -- Режим показа ошибок;
+ */
+
+define('ROOT', __DIR__);
+define('APP', __DIR__ . '/app');
+define('CORE', __DIR__ . '/vendor/myframe/core');
+define('LIBS', __DIR__ . '/vendor/myframe/libs');
+define('WEB', __DIR__ . '/web');
+define('CONFIG', __DIR__ . '/console_app/config');
+define('RUNTIME', __DIR__ . '/tmp');
+define('LAYOUT', 'default');
+define("DEBUG", 1);
+
+
+require_once ROOT . '/vendor/autoload.php';
+
+$config = require_once CONFIG . '/console_config.php';
+
+$application = new \myframe\console\ConsoleApp($config);
+$exitCode = $application->run($argv);
+exit($exitCode);

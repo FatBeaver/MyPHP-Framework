@@ -16,6 +16,10 @@ class ComposerStaticInitfbabc19a1cf273e76db386dba62cef71
         array (
             'myframe\\' => 8,
         ),
+        'c' => 
+        array (
+            'console\\' => 8,
+        ),
         'a' => 
         array (
             'app\\' => 4,
@@ -46,6 +50,10 @@ class ComposerStaticInitfbabc19a1cf273e76db386dba62cef71
         'myframe\\' => 
         array (
             0 => __DIR__ . '/..' . '/myframe',
+        ),
+        'console\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/console_app',
         ),
         'app\\' => 
         array (

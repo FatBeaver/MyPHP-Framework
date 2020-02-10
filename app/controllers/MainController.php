@@ -10,8 +10,6 @@ class MainController extends Controller
 {   
     public function actionIndex()
     {   
-        Debug::print(App::$components->user);
-    
         $this->render('index', []);
     }
     
