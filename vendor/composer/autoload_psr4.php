@@ -10,6 +10,7 @@ return array(
     'console\\' => array($baseDir . '/console_app'),
     'app\\' => array($baseDir . '/app'),
     'Valitron\\' => array($vendorDir . '/vlucas/valitron/src/Valitron'),
+    'Shasoft\\Console\\' => array($vendorDir . '/shasoft/console/src'),
     'RedBeanPHP\\' => array($vendorDir . '/gabordemooij/redbean/RedBeanPHP'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),

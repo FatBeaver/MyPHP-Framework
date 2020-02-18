@@ -12,7 +12,7 @@ class ConsoleRouter
     /**
      * Параметры пользовательского запроса.
      */
-    private string $userArguments;
+    private string $userArguments = '';
 
     /**
      * Массив роутов для консольного приложения

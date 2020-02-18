@@ -28,6 +28,10 @@ class ComposerStaticInitfbabc19a1cf273e76db386dba62cef71
         array (
             'Valitron\\' => 9,
         ),
+        'S' => 
+        array (
+            'Shasoft\\Console\\' => 16,
+        ),
         'R' => 
         array (
             'RedBeanPHP\\' => 11,
@@ -62,6 +66,10 @@ class ComposerStaticInitfbabc19a1cf273e76db386dba62cef71
         'Valitron\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/valitron/src/Valitron',
+        ),
+        'Shasoft\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/shasoft/console/src',
         ),
         'RedBeanPHP\\' => 
         array (

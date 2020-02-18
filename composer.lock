@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "363ffffa6d9c7ac77045cbf0108d5a21",
+    "content-hash": "18d84e48c203ffe681aeb295fd94ffef",
     "packages": [
         {
             "name": "gabordemooij/redbean",
@@ -277,6 +277,47 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "shasoft/console",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shasoft/console.git",
+                "reference": "3eb2ed9cce667c26f83bbeb2b80ab9364b44bfc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shasoft/console/zipball/3eb2ed9cce667c26f83bbeb2b80ab9364b44bfc2",
+                "reference": "3eb2ed9cce667c26f83bbeb2b80ab9364b44bfc2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shasoft\\Console\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valery Shabanov",
+                    "email": "dev@shasoft.com"
+                }
+            ],
+            "description": "Shasoft Console",
+            "homepage": "http://shasoft.com/article/klass_php_dlya_vyvoda_v_konsol_tsvetnogo_teksta",
+            "keywords": [
+                "color",
+                "colors",
+                "console",
+                "output",
+                "text"
+            ],
+            "time": "2018-12-06T08:55:20+00:00"
         },
         {
             "name": "vlucas/valitron",

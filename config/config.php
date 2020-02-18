@@ -23,9 +23,6 @@ $config = [
         '^$' => ['controller' => 'main', 'action' => 'index'],
         '^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$' => [],
     ],
-    'console_routes' => [
-        '^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$' => [],
-    ],
 ];
 
 return $config;
