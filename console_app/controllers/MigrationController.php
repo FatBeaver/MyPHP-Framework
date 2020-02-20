@@ -2,6 +2,7 @@
 
 namespace console\controllers;
 
+use Exception;
 use myframe\console\base\ConsoleController;
 use PDOException;
 
@@ -29,13 +30,67 @@ class MigrationController extends ConsoleController
         }
     }
 
+
     /**
-     * Выполнение миграций (действий в файлах миграций)
+     * Выполнение миграций (Накатывание миграций)
      */
     public function actionUp()
-    {
+    {   
+        try {
+            $migrations = $this->scanDirectory(ROOT . '/console_app/migrations');
+            $migrationsFromDb = $this->fetchMigrationsFromDb();
 
+            $newMigrations = array_diff($migrations, $migrationsFromDb);
+
+            if (count($newMigrations) === 0) {
+                exit("Новых миграций не обнаруженно.". PHP_EOL);
+            } else {
+                echo "Новые миграции обнаруженны: " . count($newMigrations) . "шт."  . PHP_EOL;
+                echo "Выполнить миграции? [y/n]:". PHP_EOL;
+                $user_action = readline('yes OR no :');
+                echo PHP_EOL;
+
+                if ($user_action === 'yes' || $user_action === 'y') {
+                    $this->creatingMigrations($newMigrations);
+                    echo "Миграции успешно выполнены!" . PHP_EOL . PHP_EOL;
+                } else {
+                    exit("Вы не подтвердили выполнение миграций." . PHP_EOL);
+                }
+
+            }    
+        } catch(Exception $e) {
+            exit(PHP_EOL . "Ошибка: " . $e->getMessage() . PHP_EOL . PHP_EOL);
+        }
     }
+
+
+    /**
+     * Выполнение миграций (Откат миграций)
+     */
+    public function actionDown()
+    {
+        try {
+            $migrations = $this->fetchMigrationsFromDb();
+        
+            if (count($migrations) > 0) {
+                echo "Возможен откат миграций: " . count($migrations) . "шт."  . PHP_EOL;
+                echo "Откатить ? [y/n]:". PHP_EOL;
+                $user_action = readline('yes OR no :');
+
+                if ($user_action === 'yes' || $user_action === 'y') {
+                    $this->downingMigrations($migrations);
+                    echo "Откат миграций успешно выполнен!" . PHP_EOL . PHP_EOL;
+                } else {
+                    exit("Вы не подтвердили откат миграций." . PHP_EOL);
+                } 
+            } else {
+                exit("Миграций не обнаруженно.". PHP_EOL . PHP_EOL);
+            }
+        } catch(Exception $e) {
+            exit(PHP_EOL . "Ошибка: " . $e->getMessage() . PHP_EOL . PHP_EOL);
+        }
+    } 
+
 
     /**
      * Инициализация таблицы Migrations
@@ -46,19 +101,13 @@ class MigrationController extends ConsoleController
             $start = microtime(true);
             $initMigrateSql = "CREATE TABLE migrations (
                 `version` VARCHAR(255) NOT NULL,
-                apply_time INT(11),
+                apply_time TIMESTAMP,
                 PRIMARY KEY (`version`)
             )"; 
             $this->pdo->exec($initMigrateSql);
             
             $time = time();
-            $baseMigrateStr = "INSERT INTO migrations (
-                `version`, 
-                apply_time
-            ) VALUES (
-                'migration0000_base',
-                $time
-            )";
+            $baseMigrateStr = "INSERT INTO migrations (`version`) VALUES ('migration0000_base')";
             $this->pdo->exec($baseMigrateStr);
             $time = round((microtime(true) - $start), 3);
         } catch(PDOException $e) {
@@ -72,6 +121,7 @@ class MigrationController extends ConsoleController
         return 0;
     }
 
+
     /**
      * Создает файл миграции по которому будет создаваться новая таблица в 
      * Базе Данных
@@ -81,6 +131,8 @@ class MigrationController extends ConsoleController
         $contentMigrationFile = [
             "<?php\n",
             "\n",
+            "namespace console\migrations; \n",
+            "\n",
             "use myframe\console\base\Migration;\n",
             "\n",
             "class {$migrationClass} extends Migration\n",
@@ -88,9 +140,9 @@ class MigrationController extends ConsoleController
             "   public function up()\n",
             "   {\n",
             '       return $this->createTable(\''.$tableName.'\', ['."\n",
-            '           \'id\' => $this->bigInt(11, true)->notNull()->autoIncrement(),'."\n",
+            '           \'id\' => "BIGINT(12) NOT NULL AUTO_INCREMENT",'."\n",
             "           //Перечислите имена колонок с их типом данных\n",
-            '           $this->primaryKey(\'id\')'."\n",
+            '           "" => "PRIMARY KEY(id)"'."\n",
             '       ]);'."\n",
             '   }'."\n",
             "\n",
@@ -110,10 +162,16 @@ class MigrationController extends ConsoleController
         return 0;
     }
 
+
+    /**
+     * Создаёт файл по которому будет добавляться новая колонка в таблицу БД.
+     */
     private function addColumnFile($migrationClass, $columnName)
     {
         $contentMigrationFile = [
             "<?php\n",
+            "\n",
+            "namespace console\migrations; \n",
             "\n",
             "use myframe\console\base\Migration;\n",
             "\n",
@@ -121,7 +179,7 @@ class MigrationController extends ConsoleController
             "{\n",
             "   public function up()\n",
             "   {\n",
-            '       return $this->addColumn(\'//Имя таблицы\', \''.$columnName.'\', $this->string(255));'."\n",
+            '       return $this->addColumn(\'//Имя таблицы\', \''.$columnName.'\', "VARCHAR(255)");'."\n",
             '   }'."\n",
             "\n",
             "   public function down()\n",
@@ -138,5 +196,89 @@ class MigrationController extends ConsoleController
         fclose($migration);
 
         return 0;
+    }
+
+
+    /**
+     * Получение миграций из БД
+     */
+    private function fetchMigrationsFromDb(): array
+    {
+        $sql = "SELECT * FROM migrations";
+        $stmt = $this->pdo->query($sql);
+
+        while($row = $stmt->fetch(\PDO::FETCH_ASSOC)) {
+            $migrationsFromDatabase[] = $row['version'];
+        }
+        array_shift($migrationsFromDatabase);
+        return $migrationsFromDatabase;
+    }
+
+
+    /**
+     * Получение миграций из дирректории в которой они хранятся
+     */
+    private function scanDirectory(string $pathToMigrations): array
+    {
+        $migrationFiles = scandir($pathToMigrations); 
+        unset($migrationFiles[0], $migrationFiles[1]);
+        foreach ($migrationFiles as $migration) {
+            // Если в одну строку, то выскакивает нотайс. -_-
+            $chankMigrations = explode('.', $migration);
+            $migrationsClasses[] = array_shift($chankMigrations);
+        } 
+        return $migrationsClasses;
+    }
+
+
+    /**
+     * Проход по новым миграциям и их поднятие (накатывание)
+     */
+    private function creatingMigrations($newMigrations)
+    {
+        foreach($newMigrations as $migrationClass) {
+            echo "Выполнение миграции {$migrationClass} ..." ;
+            $start = microtime(true);
+
+            $migrationClass = "console\\migrations\\" . $migrationClass;
+            $migrationObject = new $migrationClass();
+            $sql = $migrationObject->up();
+            $this->pdo->exec($sql);
+
+            $migrationVersion = explode('\\', $migrationClass);
+            $migrationVersion = array_pop($migrationVersion);
+
+            $addSql = "INSERT INTO migrations (`version`) VALUES ('$migrationVersion')";
+            $this->pdo->exec($addSql); 
+
+            $time = round((microtime(true) - $start), 3);
+            echo PHP_EOL . "Выполнено. Время выполнения: $time сек.". PHP_EOL . PHP_EOL;
+        }
+    }
+
+
+    /**
+     * Проход по выполненым ранее миграциям и их откат.
+     */
+    private function downingMigrations($migrations)
+    {
+        foreach($migrations as $migrationClass) {
+            echo "Откат миграции {$migrationClass} ..." ;
+            $start = microtime(true);
+
+            $migrationClass = "console\\migrations\\" . $migrationClass;
+            $migrationObject = new $migrationClass();
+            $sql = $migrationObject->down();
+            $this->pdo->exec($sql);
+
+            $migrationVersion = explode('\\', $migrationClass);
+            $migrationVersion = array_pop($migrationVersion);
+
+            $dropSql = "DELETE FROM migrations WHERE `version` = '$migrationVersion'";
+            $this->pdo->exec($dropSql); 
+
+            $time = round((microtime(true) - $start), 3);
+            echo PHP_EOL . "Выполнено. Время выполнения: $time сек.". PHP_EOL . PHP_EOL;
+        }
     }
 }
