@@ -76,7 +76,7 @@ class MigrationController extends ConsoleController
                 echo "Возможен откат миграций: " . count($migrations) . "шт."  . PHP_EOL;
                 echo "Откатить ? [y/n]:". PHP_EOL;
                 $user_action = readline('yes OR no :');
-
+                echo PHP_EOL;
                 if ($user_action === 'yes' || $user_action === 'y') {
                     $this->downingMigrations($migrations);
                     echo "Откат миграций успешно выполнен!" . PHP_EOL . PHP_EOL;
@@ -204,13 +204,13 @@ class MigrationController extends ConsoleController
      */
     private function fetchMigrationsFromDb(): array
     {
-        $sql = "SELECT * FROM migrations";
+        $sql = "SELECT * FROM migrations ORDER BY apply_time DESC";
         $stmt = $this->pdo->query($sql);
 
         while($row = $stmt->fetch(\PDO::FETCH_ASSOC)) {
             $migrationsFromDatabase[] = $row['version'];
         }
-        array_shift($migrationsFromDatabase);
+        array_pop($migrationsFromDatabase);
         return $migrationsFromDatabase;
     }
 

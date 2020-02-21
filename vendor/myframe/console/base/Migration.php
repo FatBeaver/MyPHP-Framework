@@ -22,9 +22,9 @@ class Migration
      * Добавление колонки в конец указанной
      * таблицы
      */
-    public function addColumn(string $tableName, string $columnName, callable $dataType)
+    public function addColumn(string $tableName, string $columnName, string $dataType)
     {
-
+        return "ALTER TABLE $tableName ADD COLUMN $columnName $dataType";
     }
 
     /**
@@ -41,6 +41,6 @@ class Migration
      */
     public function dropColumn(string $tableName, string $columnName)
     {
-
+        return "ALTER TABLE $tableName DROP COLUMN $columnName";
     }
 }
